@@ -1,3 +1,29 @@
+'''
+🐍 Python: zip 🐍
+
+
+You can use zip to iterate in parallel over multiple iterators.
+
+
+➤ wraps multiple iterators with a lazy generator
+
+
+➤ the generator yields tuples containing the next value from each iterator
+
+
+➤ the output is truncated to the shortest iterator
+
+🐍 #Python: zip_longest 🐍
+
+You should consider using zip_longest to iterate in parallel over multiple iterators of different lenght.
+
+➤ included in itertools
+
+➤ no truncation to the shortest iterable
+
+➤ replaces missing values with the passed fillvalue (default = None)
+'''
+
 def list_iteration():
 
     # empty list
