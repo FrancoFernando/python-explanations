@@ -1,3 +1,13 @@
+'''
+The Python 🐍 any() built-in function implements a common programming pattern.
+
+
+It takes an iterable as input returning True if any element of the iterable is true.
+
+
+That's very handy in many cases, especially when combined with list comprehension.
+'''
+
 def test_any():
 
   nums = [1,3,5]
