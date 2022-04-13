@@ -1,3 +1,13 @@
+'''
+I personally find Python 🐍 reverse stride slicing very confusing.
+
+
+An alternative that I often use is the reversed function combined slicing.
+
+
+Maybe it's a bit less efficient, but much more readable.
+'''
+
 def test_reversed():
   foo = '0123456'
   
