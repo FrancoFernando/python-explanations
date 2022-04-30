@@ -14,7 +14,7 @@ But there still reasons to use OrderedDict.
 4. Equality test: OrderedDict is better to test dictionaries equality considering the order of the items
 
 5 backward compatibility with versions of Python older than 3.6
-...
+'''
 
 from collections import OrderedDict 
 
